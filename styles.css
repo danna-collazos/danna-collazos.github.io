@@ -1,0 +1,84 @@
+/* Estilos */
+
+
+main {
+}
+
+aside {
+    @media(max-width: 768px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    @media(max-width: 768px){
+        justify-content: unset;
+        align-items: center;
+    }
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    @media(max-width: 768px){
+        flex-direction: column;
+    }
+}
+
+.personal-information {
+    display: flex;
+    @media(max-width: 768px){
+        flex-direction: column;
+    }
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+table {
+    @media(max-width: 768px){
+        width: 100%;
+        max-width: 500px;
+
+    }
+}
+
+.basic {
+    background-color: yellow;
+    color: black;
+}
+
+.advanced {
+    background-color: green;
+    color: black;
+}
+
+.native {
+    background-color: darkblue;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.personal-footer {
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    @media(max-width: 768px){
+        flex-direction: column;
+    }
+}
