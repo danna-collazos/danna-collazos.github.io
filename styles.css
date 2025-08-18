@@ -32,6 +32,7 @@ header {
 }
 
 .personal-information {
+    font-family: cursive;
     display: flex;
     @media(max-width: 768px){
         flex-direction: column;
